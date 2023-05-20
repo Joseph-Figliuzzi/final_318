@@ -1,0 +1,213 @@
+    
+
+main{
+    background-color: black;
+    display: inline;
+    flex-grow: 1;
+}
+
+.pageLabel{
+    background-color: #012E40;
+    color: #F2E3D5;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: .5rem;
+    padding-bottom: .3rem;
+}
+
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+ 
+  
+header{
+    background-color: #F2E3D5;
+    color: #012E40;
+}
+
+.hdiv {
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0%;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .logoimg {
+    margin-left: auto;
+    transform: translateX(85%);
+  }
+  
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0%;
+}
+
+nav>a{
+    background-color: #012E40;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.pageLabel h1 {
+    margin: 0;
+}
+
+.bigdiv{
+    background-color: black;
+    padding: 1rem 0rem 1.5rem 0;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0;
+}
+
+div{
+    display: inline-Block;
+    background-color: #F2E3D5;
+    margin: 2rem;
+    color: #fff;
+    vertical-align: top;
+    margin-right: 5rem;
+    width: 41%;
+}
+
+.sec{
+    background-color: #012E40;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    position: absolute; 
+}
+
+.bigpassdiv{
+    display: inline;
+    background-color: black;
+    padding: 1rem 0rem 1.5rem 0;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0;
+}
+
+.passdiv{
+    display: flex;
+    background-color: #F2E3D5;
+    padding: 2rem 0rem 2rem 2rem;
+}
+
+.biggamediv{
+    display: inline;
+    background-color: black;
+    padding: 1rem 0rem 1.5rem 0;
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 0;
+}
+
+.gamediv{
+    display: flex;
+    background-color: #F2E3D5;
+    padding: 2rem 2rem 2rem 2rem;
+    justify-content: center;
+    width: 90%;
+}
+
+.gamesec{
+    background-color: #012E40;
+    padding: 1rem;
+    display: inline;
+    text-align: center;
+    width: 100%;
+
+}
+
+.passsec{
+    background-color: #012E40;
+    padding: 1rem;
+}
+
+.cost{
+    margin-left: 4rem;
+    background-color: #012E40;
+    padding: 1rem;
+}
+
+.contactsec{
+    margin-left: 2rem;
+    background-color: #012E40;
+    padding: 1rem;
+
+}
+
+img{
+    margin: 1rem;
+}
+
+.logodiv{
+    background-color: black;
+}
+
+.logosec{
+    display: flex;
+    justify-content: center;
+
+    color: black;
+}
+
+footer{
+    background-color: #012E40;
+    color: #fff;
+}
+footer > h2, footer > p{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .bigdiv{
+        background-color: black;
+        padding: 1rem 0rem 1.5rem 0;
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 0;
+        display: inline;
+    }
+    
+    div{
+        display: inline-Block;
+        background-color: #F2E3D5;
+        margin: 2rem;
+        color: #fff;
+        vertical-align: top;
+        margin-right: 5rem;
+        width: 60%;
+    }
+    
+    .sec{
+        background-color: #012E40;
+        display: inline-block;
+        margin: 1rem;
+        padding: 1rem;
+        position: absolute; 
+    }
+
+  }
